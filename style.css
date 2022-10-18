@@ -5,8 +5,16 @@ html {
   color: #272a31;
 }
 
-.nav-bar {
+.nav-bar-mobile {
   margin: 5%;
+}
+
+.nav-bar-desktop-ul {
+  display: none;
+}
+
+img.logo-img {
+display: none !important;
 }
 
 body {
@@ -33,7 +41,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: "cocogosse", sans-serif;
-  font-size: 280%;
+  font-size: 270%;
   font-weight: 800;
   margin: 0;
   margin-bottom: 5%;
@@ -72,12 +80,55 @@ body {
     background-image: url(/assets/main_big.png);
   }
 
+  .nav-bar-mobile {
+    display: none;
+  }
+
+  header {
+    background-color: #fff !important;
+    height: 8vh;
+  }
+  .nav-bar-desktop {
+    display: flex;
+  }
+
+  .nav-bar-desktop-ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style: none;
+    margin-right: 12% !important;
+    column-gap: 5%;
+    margin: 0;
+    padding: 1%;
+    align-items: center;
+    width: 50%;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+    width: 50%;
+  }
+  
+  .nav-bar-desktop-list1 {
+    border: #ec5242 5px solid;
+    padding: 0.7% 2% 0.7% 2%;
+    color: #ec5242;
+  }
+
+  img.logo-img {
+    height: 6vh;
+    margin: 1.5% 0 0 27%;
+  }
+
   .presentation-container {
-    margin: 10% 0% 10% 12%;
+    margin: 2% 0% 10% 12%;
   }
 
   .header-title {
-    font-size: 550%;
+    font-size: 500%;
+    margin-bottom: 2%;
   }
 
   .header-welcome {
@@ -85,13 +136,15 @@ body {
   }
   .box-presentation {
     padding: 2%;
-    width: 50%;
+    max-width: 50%;
+    min-width: 58vh;
   }
+
   .date-event {
-    margin-right: 22%;
     font-size: 250%;
-    margin-left: 0;
+    margin: 2% 22% 1% 0;
   }
+
   .adress {
     font-size: 150%;
     margin-left: 0;
