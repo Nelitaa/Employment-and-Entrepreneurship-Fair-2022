@@ -1,56 +1,43 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Employment and Entrepreneurship Fair 2022
 
-> Description the project.
-
+> This is an informative website about the Employment and Entrepreneurship Fair 2022, you can find all the information about this event, such as the date, the place, the speakers, the sponsors and the activities in general that will take place in the event.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Html
+- Css
+- Javascript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-
-### Setup
+  Visual Studio Code or others
+  npm
 
 ### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+-Open up Github.
+-Clone this repository from GitHub by copying the HTTPS address. Write: git clone https://github.com/Nelitaa/Employment-and-Entrepreneurship-Fair-2022.git
+-On your VSCode hit "Open a new repository" and paste the URL.
+-Select the destination folder. Write: cd Employment-and-Entrepreneurship-Fair-2022
+-All the files should be cloned to your local folder and are ready to be used.
+-Write: npm install
 
 ## Authors
 
-👤 **Author1**
+👤 **Marianela Munoz Gutierrez**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Nelitaa](https://github.com/Nelitaa)
+- Twitter: [@MarianelaMunoz\_](https://twitter.com/MarianelaMunoz_)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marianela-muñoz-gutierrez/)
 
 ## 🤝 Contributing
 
@@ -64,12 +51,9 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- Microverse
 
 ## 📝 License
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
