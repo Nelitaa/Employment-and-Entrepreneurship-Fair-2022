@@ -181,6 +181,37 @@ h2.partner-title {
   flex-wrap: wrap;
 }
 
+.footer-paragrafs {
+  display: flex;
+  align-items: center;
+}
+
+.footer-paragraf {
+  width: 50vh;
+  padding: 5%;
+  margin: 0;
+  font-size: small;
+}
+
+.link-logo-footer {
+  width: 50vh;
+}
+
+.img-footer-logo {
+  min-width: 3vh;
+  max-width: 30vh;
+  padding: 4%;
+}
+
+.footer-second-paragraf {
+  display: none;
+}
+
+footer {
+  padding: 1.5%;
+  display: flex;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-image: url(/assets/main_big.png);
@@ -313,5 +344,24 @@ h2.partner-title {
   .sponsor-container-logos {
     margin-top: 2.5%;
     margin-bottom: 5%;
+  }
+
+  footer {
+    margin-left: 15%;
+  }
+
+  .footer-second-paragraf {
+    display: flex;
+    padding: 5%;
+    margin: 0;
+    padding-top: 0;
+    font-size: small;
+  }
+
+  .footer-paragrafs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
   }
 }
