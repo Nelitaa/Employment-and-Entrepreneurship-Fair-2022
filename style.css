@@ -141,6 +141,46 @@ a.whole-program {
   display: none;
 }
 
+#sponsor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #272a31;
+}
+
+h2.partner-title {
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 0;
+  opacity: 0.5;
+}
+
+.sponsor-container-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.container-a-logos {
+  display: flex;
+  height: 6vh;
+  width: 12vh;
+  align-items: center;
+  padding: 2%;
+}
+
+.sponsors-img {
+  width: 100%;
+  opacity: 0.5;
+  flex-wrap: wrap;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-image: url(/assets/main_big.png);
@@ -189,7 +229,7 @@ a.whole-program {
   }
 
   .presentation-container {
-    margin: 2% 0% 10% 12%;
+    margin: 2% 0% 3% 12%;
   }
 
   .header-title {
@@ -214,6 +254,7 @@ a.whole-program {
   .adress {
     font-size: 150%;
     margin-left: 0;
+    margin-bottom: 0;
   }
 
   .program-container {
@@ -262,5 +303,15 @@ a.whole-program {
   .program-titles {
     width: 100%;
     text-align: center;
+  }
+  
+  .container-a-logos {
+    width: 13%;
+    padding: 1%;
+  }
+
+  .sponsor-container-logos {
+    margin-top: 2.5%;
+    margin-bottom: 5%;
   }
 }
