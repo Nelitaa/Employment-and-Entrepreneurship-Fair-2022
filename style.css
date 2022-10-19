@@ -9,6 +9,11 @@ html {
 
 .nav-bar-mobile {
   margin: 5%;
+  cursor: pointer;
+}
+
+.nav-bar-mobile.active {
+  display: none;
 }
 
 .nav-bar-desktop-ul {
@@ -17,6 +22,59 @@ html {
 
 img.logo-img {
 display: none !important;
+}
+
+.mobile-menu {
+  left: -100%;
+  position: fixed;
+  background-color: #272a31;
+  background-image: url(/assets/pattern_bg.png);
+  color:  #ec5242;
+  height: 100vh;
+  width: 100vh;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu.active {
+  left: 0;
+}
+
+.container-x {
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  align-self: end;
+  cursor: pointer;
+  color:#ec5242;
+  font-size: x-large;
+  cursor: pointer;
+}
+
+.container-x.active {
+  display: none;
+}
+
+.container-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-ul-menu {
+  list-style-type: none;
+}
+
+.mobile-menu-list {
+  cursor: pointer;
+  margin-bottom: 30%;
+}
+
+a {
+  text-decoration: none;
+  color:#ec5242;
+  font-size: x-large;
 }
 
 body {
@@ -307,7 +365,6 @@ footer {
   }
 
   a {
-    text-decoration: none;
     color: inherit;
     width: 50%;
   }
@@ -322,6 +379,10 @@ footer {
     display: flex !important;
     height: 6vh;
     margin: 1.5% 0 0 27%;
+  }
+
+  .mobile-menu.active {
+    display: none;
   }
 
   .presentation-container {
