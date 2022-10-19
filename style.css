@@ -3,6 +3,8 @@ html {
   font-style: normal;
   font-weight: 400;
   color: #272a31;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-bar-mobile {
@@ -273,16 +275,22 @@ footer {
     background-image: url(/assets/main_big.png);
   }
 
+  nav {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: #fff !important;
+    height: 8vh;
+    top: 0;
+  }
+
   .nav-bar-mobile {
     display: none;
   }
 
-  header {
-    background-color: #fff !important;
-    height: 8vh;
-  }
   .nav-bar-desktop {
     display: flex;
+    width: 100%;
   }
 
   .nav-bar-desktop-ul {
@@ -311,12 +319,14 @@ footer {
   }
 
   img.logo-img {
+    display: flex !important;
     height: 6vh;
     margin: 1.5% 0 0 27%;
   }
 
   .presentation-container {
-    margin: 2% 0% 3% 12%;
+    margin: 0 0% 3% 12%;
+    padding-top: 10%;
   }
 
   .header-title {
