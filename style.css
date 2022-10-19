@@ -212,6 +212,62 @@ footer {
   display: flex;
 }
 
+#speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-speakers {
+  margin-bottom: 0;
+}
+
+.container-speakers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5%;
+}
+
+.speaker {
+  display: flex;
+  margin-bottom: 10%;
+}
+
+.speaker-image-container {
+  width: 35%;
+  padding-left: 3%;
+  padding-top: 3%;
+  background: url(/assets/pattern-ajedrez.jpeg);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+.photo-speaker {
+  width: 12vh;
+}
+
+.speaker-text-container {
+  padding-left: 5%;
+}
+.name-speaker{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.position-speaker {
+  color: #ec5242;
+  margin-top: 0;
+  font-style: italic;
+  font-size: small;
+}
+
+.description-speaker {
+  font-size: x-small;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-image: url(/assets/main_big.png);
@@ -365,3 +421,4 @@ footer {
     align-items: flex-start;
   }
 }
+filter: grayscale(100%);
