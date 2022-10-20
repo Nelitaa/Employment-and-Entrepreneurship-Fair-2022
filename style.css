@@ -12,7 +12,7 @@ html {
   cursor: pointer;
 }
 
-.nav-bar-mobile.active {
+.nav-bar-mobile.disabled {
   display: none;
 }
 
@@ -25,13 +25,13 @@ display: none !important;
 }
 
 .mobile-menu {
-  left: 100%;
+  left: 100% ;
   position: fixed;
   background-color: #272a31;
   background-image: url(/assets/pattern_bg.png);
   color: #ec5242;
   height: 100vh;
-  width: 100vh;
+  width: 100%;
   top: 0;
   display: flex;
   flex-direction: column;
@@ -52,7 +52,7 @@ display: none !important;
   cursor: pointer;
 }
 
-.container-x.active {
+.container-x.disabled {
   display: none;
 }
 
@@ -102,6 +102,11 @@ body {
 }
 
 .header-welcome {
+  font-size: x-large;
+  color: #ec5242;
+}
+
+.header-welcome-about {
   font-size: x-large;
   color: #ec5242;
 }
@@ -419,20 +424,24 @@ footer {
   padding: 3%;
 }
 
+.container-img-last-about2,
 .container-img-last-about {
-  border: #fff 1px solid;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   color: #fff;
   margin: 0 10% 0 10%;
-  background: url('/assets/past/female-business-executive-giving-presentation.jpg');
-  background-size: contain;
+  background: brown;
 }
 
-.container-img-last-about2 {
-  border: #fff 1px solid;
-  color: #fff;
-  margin: 0 10% 0 10%;
-  background: url('/assets/past/male-speaker-giving-presentation-in-hall-at-university-workshop-audience-or-conference-hall.jpg');
-  background-size: contain;
+.img-last-about {
+  position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
 }
 
 .year-about {
@@ -440,11 +449,13 @@ footer {
   font-weight: bold;
   margin-bottom: 0;
   margin-top: 20%;
+  opacity: 1;
 }
 
 .descrition-year-about {
   margin-top: 0;
   margin-bottom: 20%;
+  opacity: 1;
 }
 
 @media only screen and (min-width: 768px) {
@@ -660,6 +671,73 @@ footer {
   
   .description-speaker {
     font-size: medium;
+  }
+
+  section.sponsor-about {
+    display: none !important;
+  }
+
+  .footer-about {
+    background-color: #272a31;
+    color: #fff;
+    margin-left: 0;
+    padding-left: 15%;
+  }
+
+  .section-past-about {
+    margin-bottom: 0;
+  }
+
+  .container-two-img-past-about {
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+  }
+
+  .container-img-last-about2,
+  .container-img-last-about {
+    width: 50%;
+  }
+
+  .paragraf-logo-about {
+    font-size: medium;
+  }
+
+  .logo-container-about {
+    width: 40%;
+    align-self: center;
+  }
+
+  .box-presentation-about {
+    padding: 2%;
+    max-width: 50%;
+    min-width: 58vh;
+  }
+
+  .header-welcome-about {
+    display: none;
+  }
+
+  .presentation-container-about {
+    margin: 0;
+    padding-top: 5%;
+    background: #f7f7f8 url(/assets/about_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .header-title-about {
+    font-size: 500%;
+    padding: 10% 20% 0 20%;
+  }
+
+  .contact-about {
+    font-size: large;
+  }
+
+  .email-about {
+    margin: 0 0 5% 0;
+    font-size: large;
   }
 }
 
