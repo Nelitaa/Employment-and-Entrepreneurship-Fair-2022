@@ -12,5 +12,3 @@ xButton.addEventListener('click', () => {
   mobileMenu.classList.remove('active');
   navBarMobile.classList.remove('disabled');
 });
-
-
