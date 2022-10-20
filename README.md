@@ -10,20 +10,21 @@
 - Css
 - Javascript
 
-## Live Demo 
+## Live Demo
 
-[Live Demo Link](https://)
-
+[Live Demo Link](https://nelitaa.github.io/EEFair2022.github.io)
 
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-  Visual Studio Code or others
-  npm
+
+Visual Studio Code or others
+npm
 
 ### Install
+
 -Open up Github.
 -Clone this repository from GitHub by copying the HTTPS address. Write: git clone https://github.com/Nelitaa/Employment-and-Entrepreneurship-Fair-2022.git
 -On your VSCode hit "Open a new repository" and paste the URL.
