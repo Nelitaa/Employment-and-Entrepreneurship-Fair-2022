@@ -1,22 +1,22 @@
 const speakers = [
   {
-    name: 'Viviana Angulo', position: 'Co-Founder Pista8', description: 'Accelerator of international and business collaborative format.', photo: '/assets/speakers/vivianaSpeaker.jpeg',
+    name: 'Viviana Angulo', position: 'Co-Founder Pista8', description: 'Accelerator of international and business collaborative format.', photo: 'https://drive.google.com/uc?export=download&id=1B8lJulbXbs_Py6CZ28wHOc7ZEa9quvkd',
   },
 
   {
-    name: 'Sebastian Ibáñez', position: 'Consultor PYMES', description: 'With a background in Management Engineering and a Master in Innovation and Entrepreneurship Management.', photo: '/assets/speakers/sebastianSpeaker.jpeg',
+    name: 'Sebastian Ibáñez', position: 'Consultor PYMES', description: 'With a background in Management Engineering and a Master in Innovation and Entrepreneurship Management.', photo: 'https://drive.google.com/uc?export=download&id=1KDVHabPOpgHGwLPt-y7YKX6yirXtHLeZ',
   },
 
   {
-    name: 'Pedro Rey Puma', position: 'Founder UTN blockchain Lab', description: 'Marketing Manager for the global exchange okx.com, professor in the cryptoeconomics course at the Universidad del Cuyo.', photo: '/assets/speakers/pedroSpeaker.jpeg',
+    name: 'Pedro Rey Puma', position: 'Founder UTN blockchain Lab', description: 'Marketing Manager for the global exchange okx.com, professor in the cryptoeconomics course at the Universidad del Cuyo.', photo: 'https://drive.google.com/uc?export=download&id=184r7KWTFrK46gQHCaNb3NptX9vYyTQRI',
   },
 
   {
-    name: 'Yamila Peralta', position: 'CEO Women Entrepreneurs', description: 'PhD in Psychology (University of Barcelona, ​​Spain). Master in Work Psychology of Organizations and Human Resources (Univ. de Barcelona, ​​Spain).', photo: '/assets/speakers/yamilaSpeaker.jpeg',
+    name: 'Yamila Peralta', position: 'CEO Women Entrepreneurs', description: 'PhD in Psychology (University of Barcelona, ​​Spain). Master in Work Psychology of Organizations and Human Resources (Univ. de Barcelona, ​​Spain).', photo: 'https://drive.google.com/uc?export=download&id=1df1QQTtIop23rhHKtBRiD5f8_vRQq9VE',
   },
 
   {
-    name: 'Marcelo Duran', position: 'Editor at Punto BO magazine', description: 'Degree in Communication, with a mention in advertising from the UCB, Master of Fine Arts in Computer Arts from the Tracor Institute. Quantum Motors', photo: '/assets/speakers/marceloSpeaker.png',
+    name: 'Marcelo Duran', position: 'Editor at Punto BO magazine', description: 'Degree in Communication, with a mention in advertising from the UCB, Master of Fine Arts in Computer Arts from the Tracor Institute. Quantum Motors', photo: 'https://drive.google.com/uc?export=download&id=1ZE16c7hV9wrXJd4ZK8Z0tdIBsiKe2meC',
   },
 ];
 
