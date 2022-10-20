@@ -110,6 +110,10 @@ body {
   color: #ec5242;
 }
 
+#hamburger {
+  color: rgb(87, 87, 87);
+}
+
 .header-title {
   background: url('https://drive.google.com/uc?export=download&id=1vEjYp8JIzzgx48GWtnktsHmn0mZXi-nh');
   -webkit-background-clip: text;
