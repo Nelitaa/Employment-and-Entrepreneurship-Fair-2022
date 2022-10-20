@@ -92,6 +92,15 @@ body {
   margin-bottom: 0;
 }
 
+.presentation-container-about {
+  display:flex;
+  flex-direction: column;
+  justify-self: center;
+  align-items: center;
+  margin: 3%;
+  margin-bottom: 0;
+}
+
 .header-welcome {
   font-size: x-large;
   color: #ec5242;
@@ -109,6 +118,18 @@ body {
   line-height: 100%;
 }
 
+.header-title-about {
+  color: #ec5242;
+  font-family: "cocogosse", sans-serif;
+  font-size: 270%;
+  text-align: center;
+  font-weight: 800;
+  margin: 0;
+  margin-bottom: 5%;
+  line-height: 100%;
+  padding-top: 0;
+}
+
 .box-presentation {
   margin: 0;
   padding: 7%;
@@ -116,6 +137,16 @@ body {
   background-color: rgb(247, 247, 248);
   text-align: justify;
   line-height: 170%;
+}
+
+.box-presentation-about {
+  margin: 0;
+  padding: 7%;
+  border: 1px solid #d3d3d3;
+  background-color: #ffff;
+  text-align: center;
+  line-height: 170%;
+  color: #272a31;
 }
 
 .date-event {
@@ -126,8 +157,22 @@ body {
   margin: 5% 0 2% 4%;
 }
 
+.contact-about {
+  margin: 5%;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 1%;
+}
+
 .adress {
   margin: 0 0 15% 4%;
+}
+
+.email-about {
+  font-size: small;
+  margin: 0 0 15% 4%;
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 #program{
@@ -337,6 +382,69 @@ footer {
 
 .description-speaker {
   font-size: x-small;
+}
+
+.section-logo-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.section-past-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5%;
+  border-top: #d3d3d3 1px solid;
+  margin-bottom: 5%;
+}
+
+.paragraf-logo-about {
+  font-size: small;
+}
+
+.logo-img-about {
+  width: 60%;
+  padding: 10%;
+  border: #272a31 1px solid;
+}
+
+.logo-container-about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+.container-img-last-about {
+  border: #fff 1px solid;
+  color: #fff;
+  margin: 0 10% 0 10%;
+  background: url('/assets/past/female-business-executive-giving-presentation.jpg');
+  background-size: contain;
+}
+
+.container-img-last-about2 {
+  border: #fff 1px solid;
+  color: #fff;
+  margin: 0 10% 0 10%;
+  background: url('/assets/past/male-speaker-giving-presentation-in-hall-at-university-workshop-audience-or-conference-hall.jpg');
+  background-size: contain;
+}
+
+.year-about {
+  font-size: xx-large;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 20%;
+}
+
+.descrition-year-about {
+  margin-top: 0;
+  margin-bottom: 20%;
 }
 
 @media only screen and (min-width: 768px) {
