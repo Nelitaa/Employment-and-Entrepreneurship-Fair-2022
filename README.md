@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://nelitaa.github.io/EEFair2022.github.io)
+[Live Demo Link](https://nelitaa.github.io/Employment-and-Entrepreneurship-Fair-2022/)
 
 ## Getting Started
 
