@@ -20,6 +20,10 @@ html {
   display: none;
 }
 
+.nav-bar-desktop-black {
+  display: none;
+}
+
 img.logo-img {
   display: none !important;
 }
@@ -103,11 +107,13 @@ body {
 .header-welcome {
   font-size: x-large;
   color: #ec5242;
+  margin-bottom: 0;
 }
 
 .header-welcome-about {
   font-size: x-large;
   color: #ec5242;
+  margin-bottom: 0;
 }
 
 #hamburger {
@@ -197,6 +203,18 @@ body {
   display: flex;
   align-items: center;
   background: rgba(255, 255, 255, 0.05);
+  border: #fff 1px solid;
+  cursor: pointer;
+  min-height: 20vh;
+}
+
+.box-program:hover {
+  border: #fff 1px solid;
+}
+
+.box-program:focus {
+  border: #ec5242 1px solid;
+
 }
 
 .program-container {
@@ -350,8 +368,8 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin: 5%;
   margin-bottom: 0;
+  margin-top: 4%;
 }
 
 .speaker {
@@ -398,6 +416,7 @@ footer {
   justify-content: center;
   text-align: center;
   margin-top: 5%;
+  background-color: #fff;
 }
 
 .section-past-about {
@@ -468,11 +487,21 @@ footer {
 
   nav {
     display: flex;
+    flex-direction: column;
     width: 100%;
     position: fixed;
     background-color: #fff !important;
-    height: 8vh;
+    height: auto;
     top: 0;
+  }
+
+  .nav-bar-desktop-black {
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    background-color: #272a31;
+    color: #fff;
+    padding-right: 21vh;
   }
 
   .mobile-menu {
@@ -486,6 +515,18 @@ footer {
   .nav-bar-desktop {
     display: flex;
     width: 100%;
+  }
+
+  .nav-bar-desktop-ul-black {
+    display: flex;
+    list-style: none;
+    column-gap: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+
+  #nav-bar-titles-black {
+    font-size: smaller;
   }
 
   .nav-bar-desktop-ul {
@@ -537,7 +578,9 @@ footer {
   }
 
   .header-welcome {
-    font-size: 250%;
+    font-size: 150%;
+    margin-top: 5%;
+    margin-bottom: 0;
   }
 
   .box-presentation {
@@ -648,19 +691,18 @@ footer {
   }
 
   .container-speakers {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: left;
-    margin-left: 15%;
-    column-gap: 2%;
-  }
-
-  .speaker {
-    width: 70vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    column-gap: 2vh;
+    row-gap: 2vh;
+    padding: 5% 10% 5% 10%;
+    margin-top: 0;
   }
 
   .photo-speaker {
-    width: 19vh;
+    max-width: 17vh;
+    min-width: 12vh;
   }
 
   .name-speaker {
@@ -727,10 +769,11 @@ footer {
     background: #f7f7f8 url('https://drive.google.com/uc?export=download&id=1OFgDiEaqPcRYPgHayk_Mpox35AjLoRaE');
     background-position: center;
     background-repeat: no-repeat;
+    background-size: contain;
   }
 
   .header-title-about {
-    font-size: 500%;
+    font-size: 450%;
     padding: 10% 20% 0 20%;
   }
 

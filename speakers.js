@@ -18,6 +18,10 @@ const speakers = [
   {
     name: 'Marcelo Duran', position: 'Editor at Punto BO magazine', description: 'Degree in Communication, with a mention in advertising from the UCB, Master of Fine Arts in Computer Arts from the Tracor Institute. Quantum Motors', photo: 'https://drive.google.com/uc?export=download&id=1ZE16c7hV9wrXJd4ZK8Z0tdIBsiKe2meC',
   },
+
+  {
+    name: 'Sebastian Zurita', position: 'CEO Loop Corporation', description: 'Senior Web Developer specializing in front end development. Experienced with all the stages of the development cycle for dynamic web projects.', photo: 'https://drive.google.com/uc?export=download&id=1V388PjYyA8xkyEYBhABX3d6t4ZGSa6q5',
+  },
 ];
 
 const titleSpeakers = document.createElement('h2');
