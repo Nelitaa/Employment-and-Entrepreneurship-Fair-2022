@@ -1,18 +1,56 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
+# 📗 Table of Contents
 
-# Employment and Entrepreneurship Fair 2022
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-> This is an informative website about the Employment and Entrepreneurship Fair 2022, you can find all the information about this event, such as the date, the place, the speakers, the sponsors and the activities in general that will take place in the event.
+# 📖 [Employment_and_Entrepreneurship_Fair_2022] <a name="about-project"></a>
 
-## Built With
+**[Employment_and_Entrepreneurship_Fair_2022]** is an informative website, you can find all the information about this event, such as the date, the place, the speakers, the sponsors, and the activities in general that will take place in the event.
 
-- Html
-- Css
-- Javascript
+## 🛠 Built With <a name="built-with"></a>
 
-## Live Demo
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+    <li><a href="https://html5.org/">HTML5</a></li>
+    <li>CSS3</li>
+  </ul>
+</details>
+
+### Key Features <a name="key-features"></a>
+
+- **[responsive_design]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Live Demo <a name="live-demo"></a>
 
 [Live Demo Link](https://nelitaa.github.io/Employment-and-Entrepreneurship-Fair-2022/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
 
 ## Getting Started
 
