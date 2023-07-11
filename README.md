@@ -10,8 +10,6 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -48,51 +46,71 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 💻 Getting Started <a name="getting-started"></a>
 
-
-
-
-## Getting Started
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-Visual Studio Code or others
-npm
+In order to run this project you need:
+-Visual Studio Code
+-npm
+
+### Setup
+
+Clone this repository to your desired folder:
+
+cd my-folder
+git clone https://github.com/Nelitaa/Employment-and-Entrepreneurship-Fair-2022.git
 
 ### Install
 
--Open up Github.
--Clone this repository from GitHub by copying the HTTPS address. Write: git clone https://github.com/Nelitaa/Employment-and-Entrepreneurship-Fair-2022.git
--On your VSCode hit "Open a new repository" and paste the URL.
--Select the destination folder. Write: cd Employment-and-Entrepreneurship-Fair-2022
--All the files should be cloned to your local folder and are ready to be used.
--Write: npm install
+Install this project with:
 
-## Authors
+```sh
+  cd Employment-and-Entrepreneurship-Fair-2022
+  npm install
+```
 
-👤 **Marianela Munoz Gutierrez**
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Marianela Muñoz Gutierrez**
 
 - GitHub: [@Nelitaa](https://github.com/Nelitaa)
-- Twitter: [@MarianelaMunoz\_](https://twitter.com/MarianelaMunoz_)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marianela-muñoz-gutierrez/)
+- Twitter: [@MarianelaMunoz](https://twitter.com/MarianelaMunoz_)
+- LinkedIn: [Marianela-munoz](https://www.linkedin.com/in/marianela-munoz/)
 
-## 🤝 Contributing
+## 🔭 Future Features <a name="future-features"></a>
+
+- [feature_1 ] **Add reservations online**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+## ⭐️ Show your support <a name="support"></a>
 
-## Acknowledgments
+If you like this project please support us by adding a star
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
-- Microverse
+- We would like to thank Microverse.
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📝 License <a name="license"></a>
 
 This project is [MIT](/LICENSE.md) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
