@@ -17,9 +17,9 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 [Employment_and_Entrepreneurship_Fair_2022] <a name="about-project"></a>
+# 📖 Employment and Entrepreneurship Fair 2022 <a name="about-project"></a>
 
-**[Employment_and_Entrepreneurship_Fair_2022]** is an informative website, you can find all the information about this event, such as the date, the place, the speakers, the sponsors, and the activities in general that will take place in the event.
+**Employment and Entrepreneurship Fair 2022** is an informative website, you can find all the information about this event, such as the date, the place, the speakers, the sponsors, and the activities in general that will take place in the event.
 
 ## 🛠 Built With <a name="built-with"></a>
 
