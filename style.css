@@ -1,10 +1,16 @@
+/* General Styles */
 html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #272a31;
+}
+
+html,
+button {
   font-family: "lato", sans-serif;
   font-style: normal;
   font-weight: 400;
-  color: #272a31;
-  margin: 0;
-  padding: 0;
 }
 
 .nav-bar-mobile {
@@ -254,7 +260,6 @@ hr {
   padding-bottom: 7%;
   padding-left: 10%;
   padding-right: 10%;
-  font-family: "lato", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: large;
