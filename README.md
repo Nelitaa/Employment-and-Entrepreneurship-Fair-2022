@@ -1,9 +1,10 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="https://drive.google.com/uc?export=download&id=1kJyz0MXkWANEBI2fDUfR_w0omliq9Plp" alt="E&E Fair 2022 logo" width="140"  height="auto" />
+  <img src="https://drive.google.com/uc?export=download&id=1kJyz0MXkWANEBI2fDUfR_w0omliq9Plp" alt="E&E Fair 2022 logo" width="200"  height="auto" />
   <br/>
-  <h3><b>Employment and Entrepreneurship Fair 2022 README</b></h3>
+  <h3><b>Employment and Entrepreneurship Fair 2022</b></h3>
+  <h3><b>README</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -85,11 +86,11 @@ Install this project with:
   npm install
 ```
 
-## Usage
+### Usage
 
 To run the project locally, you have a couple of options:
 
-### Option 1: Using a Web Browser
+#### Option 1: Using a Web Browser
 
 1. Open your project folder.
 2. Locate the main HTML file: index.html
@@ -98,7 +99,7 @@ To run the project locally, you have a couple of options:
 
 This will open the HTML file directly in your browser, allowing you to view and interact with the project.
 
-### Option 2: Using a Development Server
+#### Option 2: Using a Development Server
 
 If you prefer using a development server for a more dynamic experience, you can use the Visual Studio Code Live Server extension:
 
