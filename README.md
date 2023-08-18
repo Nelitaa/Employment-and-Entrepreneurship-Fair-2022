@@ -1,4 +1,11 @@
 <a name="readme-top"></a>
+
+<div align="center">
+  <img src="https://drive.google.com/uc?export=download&id=1kJyz0MXkWANEBI2fDUfR_w0omliq9Plp" alt="E&E Fair 2022 logo" width="140"  height="auto" />
+  <br/>
+  <h3><b>Employment and Entrepreneurship Fair 2022 README</b></h3>
+</div>
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -10,6 +17,7 @@
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -34,9 +42,11 @@
   </ul>
 </details>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Key Features <a name="key-features"></a>
 
-- **[responsive_design]**
+- **Responsive design**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,15 +63,18 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
--Visual Studio Code
--npm
+
+- A code editor of your choice (e.g., Visual Studio Code, Sublime Text, Atom)
+- npm (Node Package Manager)
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-cd my-folder
-git clone https://github.com/Nelitaa/Employment-and-Entrepreneurship-Fair-2022.git
+```sh
+  cd my-folder
+  git clone https://github.com/Nelitaa/Employment-and-Entrepreneurship-Fair-2022.git
+```
 
 ### Install
 
@@ -71,6 +84,30 @@ Install this project with:
   cd Employment-and-Entrepreneurship-Fair-2022
   npm install
 ```
+
+## Usage
+
+To run the project locally, you have a couple of options:
+
+### Option 1: Using a Web Browser
+
+1. Open your project folder.
+2. Locate the main HTML file: index.html
+3. Right-click on the HTML file.
+4. Select "Open with" and choose your preferred web browser.
+
+This will open the HTML file directly in your browser, allowing you to view and interact with the project.
+
+### Option 2: Using a Development Server
+
+If you prefer using a development server for a more dynamic experience, you can use the Visual Studio Code Live Server extension:
+
+1. Install the "Live Server" extension from the Visual Studio Code marketplace.
+2. Open your project folder in Visual Studio Code.
+3. Right-click on your HTML file.
+4. Select "Open with Live Server."
+
+This will launch your project in your default web browser using the Live Server extension.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,9 +119,12 @@ Install this project with:
 - Twitter: [@MarianelaMunoz](https://twitter.com/MarianelaMunoz_)
 - LinkedIn: [Marianela-munoz](https://www.linkedin.com/in/marianela-munoz/)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [feature_1 ] **Add reservations online**
+- **Reservation form**
+- **Contact page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -98,14 +138,14 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project please support us by adding a star
+If you like this project please support me by adding a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 - Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
-- We would like to thank Microverse.
+- I would like to thank [Microverse](https://www.microverse.org/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
